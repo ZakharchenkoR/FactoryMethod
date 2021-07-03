@@ -32,7 +32,7 @@ namespace FactoryMethod
             // перевірка правильності вибору рівня
             if (lvlNumber > -1 && lvlNumber < lvls.Length) 
             {
-                //створюємо гру з db,hfybv hsdytv
+                //створюємо гру з вибраним рівнем
                 Game game = new Game(lvls[lvlNumber]);
                 game.StartGame();
             }
